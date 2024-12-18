@@ -18,5 +18,5 @@
       We compile the model using the Adam optimizer and the categorical_crossentropy loss function, which is suitable for multi-class classification problems.
       The model is trained for 100 epochs with a batch size of 10.
 - Evaluation and Prediction:
-      After training, the model is evaluated on the test data, and accuracy is displayed.
-      Predictions are made on the test data, and the predicted classes are compared to the actual classes.
+      After training, the model is evaluated on the test data, and accuracy is displayed..
+      Predictions are made on the test data, and the predicted classes are compared to the actual classes...
