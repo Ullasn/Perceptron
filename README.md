@@ -1,4 +1,3 @@
-//Implementation of a Single Layer Perceptron using the Iris dataset:
 - This example uses the popular scikit-learn library to load the Iris dataset and evaluate the perceptron model.
 - Iris Dataset: We load the Iris dataset from sklearn.datasets. The dataset has 3 classes (Setosa, Versicolor, Virginica), but to simplify, we use only two classes (0: Setosa, 1: Versicolor), and only the first two features (sepal length, sepal width).
 - Train-Test Split: The dataset is split into training (70%) and testing (30%) sets using train_test_split.
@@ -6,7 +5,6 @@
 - Model Training: The perceptron is trained using a learning rate of 0.1 for 100 epochs.
 - Prediction & Evaluation: The trained perceptron predicts the labels on the test set, and the accuracy of the model is printed.
 
-//Implementation of a Multilayer Perceptron (MLP) using TensorFlow and Keras. 
 - The Iris dataset is used, which is available through sklearn, and create a neural network model with multiple layers to classify the data.
 - Data Preprocessing:
       We load the Iris dataset and one-hot encode the labels (since the target is categorical with 3 classes: Setosa, Versicolor, Virginica).
